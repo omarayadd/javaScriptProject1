@@ -14,7 +14,7 @@ let displayBtn = document.querySelector('#show-case')
 
 let items = [{
         id:1,
-        imageUrl : "../images/jacket.jpg",
+        imageUrl : "images/jacket.jpg",
         brand : "Hollister",
         type : "jacket army",
         price : 40,
@@ -22,7 +22,7 @@ let items = [{
     },
     {
         id:2,
-        imageUrl : "../images/c.webp",
+        imageUrl : "images/c.webp",
         brand : "Zara",
         type : "Jeans",
         price : 20,
@@ -30,7 +30,7 @@ let items = [{
     },
     {
         id:3,
-        imageUrl : "../images/b.webp",
+        imageUrl : "images/b.webp",
         brand : "Hala Hala",
         type : "Hoodie",
         price : 80,
@@ -38,7 +38,7 @@ let items = [{
     },
     {
         id:4,
-        imageUrl : "../images/d.webp",
+        imageUrl : "images/d.webp",
         brand : "Zara",
         type : "Hoodie",
         price : 30,
@@ -46,7 +46,7 @@ let items = [{
     },
     {
       id:5,
-      imageUrl : "../images/e.webp",
+      imageUrl : "images/e.webp",
       brand : "Predator",
       type : "Pull over",
       price : 50,
@@ -54,7 +54,7 @@ let items = [{
   },
   {
     id:6,
-    imageUrl : "../images/f.webp",
+    imageUrl : "images/f.webp",
     brand : "Fufu",
     type : "Pants",
     price : 15,
@@ -62,7 +62,7 @@ let items = [{
 },
 {
   id:7,
-  imageUrl : "../images/a.webp",
+  imageUrl : "images/a.webp",
   brand : "North Face",
   type : "jacket",
   price : 90,
@@ -70,7 +70,7 @@ let items = [{
 },
 {
   id:8,
-  imageUrl : "../images/jacket2.jpg",
+  imageUrl : "images/jacket2.jpg",
   brand : "Kano",
   type : "jacket",
   price : 65,
