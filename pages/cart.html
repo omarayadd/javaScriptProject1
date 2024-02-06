@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar'sWebsite</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,300&family=Tajawal&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header>
+        <div class="header-container">
+          <div class="header-logo">
+            <a href="index.html"><img src="../images/logo.png" alt="logo" width="100px" height="60px"></a>
+          </div>
+          <h2 id="header-welcome"></h2>
+          <div class="header-body">
+            <button class="btn btn-outline-primary" type="submit" id="loginPage">Login</button>
+            <button class="btn btn-outline-primary" type="submit" id="registerPage">Register</button>
+          </div> 
+          <div id="header-userOptions">
+            <div class="header-user">
+              <a href=""><i class="far fa-user" id="userIcon"></i></a>
+              <div class="header-user-options">
+                <a href="" id="logOut">log out</a>
+              </div>
+            </div>
+            <a href=""><i class="far fa-heart"></i></a>
+          </div> 
+        </div>
+      </header>
+    <section class="body-section">
+      <div class="items-container">
+            <div class="product">
+              <img src="../images/jacket.jpg" alt="">
+              <div class="item-desc">
+                <p id="brand">Hollister</p>
+                <p id="type">Jacket-army</p>
+                <p id="price">40&dollar;</p>
+              </div>
+              <div class="item-pay">
+                <a href=""><i class="far fa-heart"></i></a>
+              </div>
+            </div><!-- product -->
+      </div><!-- items-container -->
+    </section> <!-- body-section -->
+    <div class="price-container">
+      <div id="price-aaa"></div>
+    </div>
+      
+
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/user.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
